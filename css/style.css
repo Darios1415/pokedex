@@ -1,0 +1,48 @@
+.container {
+    background-color: #ffcb06;
+    margin-top: 10px;
+    display: block;
+}
+
+.pokemon-banner {
+    display: block;
+    margin: auto;
+    height: 10vh;
+}
+
+.h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pokeball {
+    height: 5vh;
+    cursor: pointer;
+}
+
+.img-container {
+    position: relative;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 1px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 2px solid rgb(4, 0, 240);
+}
+
+.poke-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}

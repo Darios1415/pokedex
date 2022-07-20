@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo -->
+    <title>Pokedex</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/pokebola.png">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- StyleShet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font google-->
+    <link rel="import" href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap">
+</head>
+
+<body>
+    <div class="container col-sm-4">
+        <img class="pokemon-banner" src="/img/what_pokemon.png" alt="Pokemon">
+        <div data-poke-card class="card text-center poke-card">
+            <div data-poke-name class="h2 text-danger "></div>
+            <div data-poke-img-container class="img-container ">
+                <img data-poke-img class="poke-img border border-5 " src="# " />
+            </div>
+            <div data-poke-id></div>
+            <div data-poke-types class="poke-types "></div>
+            <div data-poke-stats class="poke-stats "></div>
+            <div data-poke-img-container class="img-container ">
+                <button type="button" class="btn btn-outline-warning pokeball">Mostrar</button>
+            </div>
+        </div>
+    </div>
+    <script src="/js/app.js " type="text/javascript " defer></script>
+</body>
+
+</html>
